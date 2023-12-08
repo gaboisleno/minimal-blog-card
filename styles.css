@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafaf9;
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 10px 10px 15px 0px #E5EAF0;
+    width: 360px;
+    padding: 16px 16px 20px 16px;
+    font-family: 'Sora', sans-serif;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    height: 152px;
+}
+.card .chip {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #883AE1;
+    background: #E6D6FC;
+    text-align: center;
+    margin-bottom: 16px;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 16px;
+}
+.card .title {
+    color: #20293A;
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+}
+
+.card .body {
+    font-size: 0.875rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    width: 90%;
+    color: #6C727F;
+}
+hr {
+    width: 100%;
+}
+.card .tag {
+    color: #6C727F;
+    font-size: 0.625rem;
+    display: flex;
+    align-items: flex-end;
+}
